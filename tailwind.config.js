@@ -7,10 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        "BGlight": "#f0f0ea",
-        "BGdark": "#2e3944",
-        "BGmedium": "#d3d9d4",
-        "Text-Grey": "8f8e8e"
+        "Main": "rgb(248 250 252)",
+        "Secondary": "rgb(226 232 240)",
+        "Purple": "rgb(147 51 234)",
+        "Fuchsia": "rgb(192 38 211)",
+        "Sky": "rgb(2 132 199)",
+        "Green": "rgb(22 163 74)",
+        "Amber": "rgb(251 191 36)"
       }
     },
   },
