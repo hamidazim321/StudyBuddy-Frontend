@@ -4,10 +4,12 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 interface InputPasswordProps {
   name: string;
   required?: boolean;
+  placeholder?: string;
 }
 
 const InputPassword: React.FC<InputPasswordProps> = ({
   name,
+  placeholder = "password",
   required = false,
 }) => {
   const [seePassword, changeSeePassword] = useState(false);
@@ -20,7 +22,7 @@ const InputPassword: React.FC<InputPasswordProps> = ({
         type={seePassword ? "text" : "password"}
         name={name}
         className="text-gray-900 text-sm w-full outline-none bg-transparent"
-        placeholder="password"
+        placeholder={placeholder}
         required={required}
       />
       <span className="text-gray-600" onClick={toggleSeePassword}>
