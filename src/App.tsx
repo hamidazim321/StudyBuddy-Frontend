@@ -1,11 +1,9 @@
-import Login from "./components/Login";
-import SignUp from "./components/SignUp";
+import Auth from "./pages/Auth";
 
 function App() {
   return (
     <>
-      <Login />
-      <SignUp />
+      <Auth />
     </>
   );
 }
