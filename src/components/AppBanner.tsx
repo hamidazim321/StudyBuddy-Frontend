@@ -6,39 +6,39 @@ export default function AppBanner() {
       <div className="grid grid-cols-2 gap-7">
         <div>
           <BannerCard
-            headText="Head"
-            bottomText="lorem ipsum is more this dsjg dshje dsjgd dsjgda dsgdsbdsj dsjhdsjgds "
-            topColor="bg-blue-500"
-            bottomColor="bg-blue-600"
+            headText="Goals"
+            bottomText="Set goals for the future to keep you motivated and evaluate your progress"
+            topColor="bg-sky-400"
+            bottomColor="bg-sky-500"
           />
         </div>
         <div>
           <BannerCard
-            headText="Head"
-            bottomText="lorem ipsum is more this dsjg dshje dsjgd dsjgda dsgdsbdsj dsjhdsjgds "
-            topColor="bg-blue-500"
-            bottomColor="bg-blue-600"
+            headText="Sessions"
+            bottomText="Track your daily study sessions for each subject and take control"
+            topColor="bg-pink-700"
+            bottomColor="bg-pink-800"
           />
         </div>
       </div>
       <div className="w-full text-center">
-        <h1>What you get</h1>
+        <h1 className="font-extrabold text-3xl p-4">Study Smart</h1>
       </div>
       <div className="grid grid-cols-2 gap-7">
         <div>
           <BannerCard
-            headText="Head"
-            bottomText="lorem ipsum is more this dsjg dshje dsjgd dsjgda dsgdsbdsj dsjhdsjgds "
-            topColor="bg-blue-500"
-            bottomColor="bg-blue-600"
+            headText="Analysis"
+            bottomText="See analysis of your progress for all engagements or selected groups"
+            topColor="bg-red-600"
+            bottomColor="bg-red-700"
           />
         </div>
         <div>
           <BannerCard
-            headText="Head"
-            bottomText="lorem ipsum is more this dsjg dshje dsjgd dsjgda dsgdsbdsj dsjhdsjgds "
-            topColor="bg-blue-500"
-            bottomColor="bg-blue-600"
+            headText="Visuals"
+            bottomText="See visualizations of your activities in bar charts, line charts and many more"
+            topColor="bg-purple-600"
+            bottomColor="bg-purple-700"
           />
         </div>
       </div>

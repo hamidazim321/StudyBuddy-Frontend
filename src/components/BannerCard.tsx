@@ -14,8 +14,10 @@ const BannerCard: React.FC<CardProps> = ({
   bottomText,
 }) => {
   return (
-    <div className="flex flex-col items-center rounded-lg text-white">
-      <h1 className={`${topColor} p-1 w-full rounded-t-lg text-lg`}>
+    <div className="flex flex-col items-center rounded-lg text-white shadow-2xl">
+      <h1
+        className={`${topColor} p-1 w-full rounded-t-lg text-lg shadow-inner`}
+      >
         {headText}
       </h1>
       <p className={`${bottomColor} p-1 w-full rounded-b-lg text-md`}>
